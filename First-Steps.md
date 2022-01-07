@@ -1,5 +1,4 @@
-# Custom Content
-## Profile Picture and Slogan
+# Profile Picture and Slogan
 
 ```toml
 [params]
@@ -21,7 +20,7 @@ Blogging from Texas
 """
 ```
 
-## Social Icons in the Sidebar
+# Social Icons in the Sidebar
 You can add social media based icon links under your profile picture by using the `socialIcons` parameter.
 
 [Font Awesome](https://fontawesome.com/) is used for the icons.
@@ -47,7 +46,7 @@ icon = "fas fa-envelope"
 title = "e-mail"
 url = "mailto:mail@example.com"
 ```
-## Favicon
+# Favicon
 
 Add your favicons to `static/favicons`. Anatole currently employs following favicon files:
 
@@ -56,7 +55,7 @@ Add your favicons to `static/favicons`. Anatole currently employs following favi
 - `favicon-32x32.png`
 - `apple-touch-icon.png` (resolution should be 180x180)
 
-## Copyright
+# Copyright
 
 By default, the copyright will show the authors name followed by the current year, but you can change this by configuring the `copyright` parameter. If this method is used, the string `{{ YEAR }}` will be replaced with the current year during site generation.
 
