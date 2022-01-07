@@ -37,6 +37,6 @@ owner = "GitHub repo owner"
 admin = "GitHub repo owner and collaborators, only these guys can initialize gitHub issues"
 ```
 
-# Disabling Comments Per Page
+# Disable Comments Per Page
 
 Comments can be disabled per page by setting `disableComments: true` on the pages [Front Matter](https://gohugo.io/content-management/front-matter/)
