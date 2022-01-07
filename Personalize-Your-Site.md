@@ -21,6 +21,32 @@ Blogging from Texas
 """
 ```
 
+## Social Icons in the Sidebar
+You can add social media based icon links under your profile picture by using the `socialIcons` parameter.
+
+[Font Awesome](https://fontawesome.com/) is used for the icons.
+
+If you are using brand icons, prefix the icon value with `fab` if you are using a standard icon use `fas` instead.
+
+Ordering in the `config.toml` will determine the display order on the webpage.
+
+Sample branded social entry:
+
+```toml
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://de.linkedin.com/"
+```
+
+Sample standard social entry:
+
+```toml
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:mail@example.com"
+```
 ## Favicon
 
 Add your favicons to `static/favicons`. Anatole currently employs following favicon files:
