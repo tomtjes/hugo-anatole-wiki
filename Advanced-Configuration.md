@@ -27,16 +27,13 @@ You can easily disable the animations from the `config.toml`. All you have to do
 [params]
 doNotLoadAnimations = true # Animations are loaded by default
 ```
+## Changing the sidebar/content ratio
 
-## Control the Date Format
-
-You can change the default date formatting for the `list.html`, the `single.html` and the `index.html`. Simply configure the matching parameters.
+By default, the content fills up 60% of the screen width on devices with a full HD resolution. If you want to change the ratio, adjust the `contentratio` variable. Let's, for example, set the content ratio to 70%:
 
 ```toml
 [params]
-singleDateFormat = "Mon, Jan 2, 2006"
-indexDateFormat = "Mon, Jan 2, 2006"
-listDateFormat = "Jan 2"
+contentratio = 0.7
 ```
 # Analytics
 ## Google Analytics
@@ -127,3 +124,13 @@ admin = "GitHub repo owner and collaborators, only these guys can initialize git
 ## Disable Comments Per Page
 
 Comments can be disabled per page by setting `disableComments: true` on the pages [Front Matter](https://gohugo.io/content-management/front-matter/)
+
+# Date and Time
+You can change the default date formating for the `list.html`, the `single.html` and the `index.html`. Simply configure the matching parameters.
+
+```toml
+[params]
+singleDateFormat = "Mon, Jan 2, 2006"
+indexDateFormat = "Mon, Jan 2, 2006"
+listDateFormat = "Jan 2"
+```
