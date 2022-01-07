@@ -27,7 +27,7 @@ You can easily disable the animations from the `config.toml`. All you have to do
 [params]
 doNotLoadAnimations = true # Animations are loaded by default
 ```
-## Changing the sidebar/content ratio
+## Sidebar/Content Ratio
 
 By default, the content fills up 60% of the screen width on devices with a full HD resolution. If you want to change the ratio, adjust the `contentratio` variable. Let's, for example, set the content ratio to 70%:
 
