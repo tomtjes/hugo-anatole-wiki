@@ -1,4 +1,4 @@
-# Comments powered by Disqus
+# Disqus
 
 No comment section is shown on the `single.html`, unless a Disqus code is specified in the `config.toml` file.
 
@@ -6,7 +6,7 @@ No comment section is shown on the `single.html`, unless a Disqus code is specif
 disqusShortname = "XXX"
 ```
 
-# Comments powered by Utteranc.es
+# Utteranc.es
 
 No comment section is shown on the `single.html` unless a `repo` is specified in the `config.toml` file. If uncertain how parameter to configure, check out the official [documentation](https://utteranc.es/).
 
@@ -23,7 +23,7 @@ Two notes on the security of Utteranc.es
 - If you are using a strict CSP, you'll have to add the domain to it.
 - The script currently has no built-in integrity check due to limitations of [Utterances](https://github.com/utterance/utterances/issues/40).
 
-# Comments powered by Commento
+# Commento
 
 You can use [Commento](https://commento.io/) as an alternative to Disqus. All you need to do is to configure a `CommentoURL`:
 
@@ -32,7 +32,7 @@ You can use [Commento](https://commento.io/) as an alternative to Disqus. All yo
 CommentoURL = "https://commento.example.com/js/commento.js"
 ```
 
-# Comments powered by Gitalk
+# Gitalk
 
 No comment section is shown on the `single.html` unless a `repo` is specified in the `config.toml` file. If uncertain how parameter to configure, check out the official [documentation](https://github.com/gitalk/gitalk).
 
