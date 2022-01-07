@@ -1,4 +1,4 @@
-# Analytics Powered by Google Analytics
+# Google Analytics
 
 To use Google Analytics, a valid tracking code has to be added. If you don't want to load the code, then commend out the parameter.
 
@@ -13,7 +13,7 @@ To use the modern Google Analytics 4, include the following under `[params]`, re
 gtagId = "G-XXXXXXXXXX"
 ```
 
-# Analytics Powered by Simple Analytics
+# Simple Analytics
 
 To use Simple Analytics, it has to be enabled by setting the parameter to true. If you are using a custom subdomain to evade Adblockers, then specify the URL without a trailing slash.
 
