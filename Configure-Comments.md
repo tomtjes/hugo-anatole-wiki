@@ -1,3 +1,11 @@
+### Comments powered by Disqus
+
+No comment section is shown on the `single.html`, unless a Disqus code is specified in the `config.toml` file.
+
+```toml
+disqusShortname = "XXX"
+```
+
 # Comments powered by Utteranc.es
 
 No comment section is shown on the `single.html` unless a `repo` is specified in the `config.toml` file. If uncertain how parameter to configure, check out the official [documentation](https://utteranc.es/).
