@@ -88,3 +88,28 @@ Non-content entries can be added right from the `config.toml` file.
   identifier = "about"
   url = "/about/"
 ```
+# Portfolio
+You can create an optional portfolio page that allows showcasing recent projects and publications. The entries within your portfolio are controlled by the `portfolio.yml` inside of your `data` folder. The `portfolio.yml` may look similar to the following structure:
+
+```yaml
+portfolioitems:
+  # portfolio category
+  - title: Coding Projects
+    # items within a category
+    portfolioitem:
+      - name: Project 1
+        image: '/images/portfolio/code.jpg'
+        link: https://gohugo.io/
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        tags:
+          - Tag 1
+          - Tag 2
+        status: 'Finished'
+        start: '2020'
+        end: '2021'
+        authors:
+          - Author 1
+          - Author 2
+```
+
+Please note that fields such as start, end, authors, and tags will only appear if they have been populated. The image path defined under `image` parameter is relative to the static folder, similarly to images included in the post.
