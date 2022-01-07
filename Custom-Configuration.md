@@ -63,3 +63,15 @@ To use Simple Analytics, it has to be enabled by setting the parameter to true. 
 enable = true
 # customurl = "https://analytics.example.com"
 ```
+
+# SEO
+## Google Site Verification
+
+To use Google Site Verification, add the following line:
+
+```toml
+[params]
+googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+```
+
+Replace the hash with the one Google provided you.
