@@ -1,4 +1,3 @@
-# 🤖 Output Formats
 ## RSS
 
 Hugo natively supports RSS. To generate a feed for a given page, append `index.xml` to the page URL.
