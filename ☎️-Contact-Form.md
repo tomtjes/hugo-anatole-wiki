@@ -1,4 +1,3 @@
-# ☎️ Contact Form
 ## Formspree
 
 Step 1: Configure the `contactFormAction` in the `config.toml`
