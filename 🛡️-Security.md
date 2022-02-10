@@ -1,4 +1,3 @@
-# 🛡️ Security
 ## Content Security Policy
 
 The theme is compliant with the most strict CSP policies out of the box. A sample CSP for an Anatole-based site would look something like this:
