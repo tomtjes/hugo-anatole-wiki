@@ -215,7 +215,7 @@ thumbnail= "images/landscape.jpg"
 
 Make sure to put the image in the `static/images/` directory.
 
-## Have a static page as a home page
+## Static Page as a Home Page
 
 If you prefer having a static page as your home page rather than a listing of the latest posts, then make sure you leave the `mainSections` parameter blank:
 
