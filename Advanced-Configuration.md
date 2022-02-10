@@ -36,8 +36,8 @@ By default, the content fills up 60% of the screen width on devices with a full 
 contentratio = 0.7
 ```
 
-## Date and Time
-You can change the default date formating for the `list.html`, the `single.html` and the `index.html`. Simply configure the matching parameters.
+## Date and Time Format
+You can change the default date formatting for the `list.html`, the `single.html` and the `index.html`. Simply configure the matching parameters.
 
 ```toml
 [params]
