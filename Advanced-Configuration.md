@@ -330,6 +330,23 @@ A duration of 0 disables the warning.
 
 By default, this warning only shows on posts. You can override this behavior by setting the `old_content_duration` parameter in the front matter of pages you want this warning to be displayed on.
 
+## Twitter Cards support
+
+In order to use the full functionality of Twitter cards, you will have to define a couple of settings in the `config.toml` and the frontmatter of a page.
+
+In the `config.toml` you can configure a site feature image. This image will be displayed if no image is defined in the frontmatter of a page.
+
+```toml
+[params]
+  images = ["images/site-feature-image.png"]
+```
+
+To define a custom image of a page, you might want to add the following to the frontmatter of a post.
+
+```toml
+images = ["post-cover.png"]
+```
+
 # Languages
 ## Multilingual support
 
@@ -416,23 +433,6 @@ Step 1: Configure the `contactFormAction` in the `config.toml`
 ```
 
 Step 2: Activate the `contact: true` or `contact=true` in the frontmatter of a page. See `exampleSite/content/contact.html` as an example.
-
-### Twitter Cards support
-
-In order to use the full functionality of Twitter cards, you will have to define a couple of settings in the `config.toml` and the frontmatter of a page.
-
-In the `config.toml` you can configure a site feature image. This image will be displayed if no image is defined in the frontmatter of a page.
-
-```toml
-[params]
-  images = ["images/site-feature-image.png"]
-```
-
-To define a custom image of a page, you might want to add the following to the frontmatter of a post.
-
-```toml
-images = ["post-cover.png"]
-```
 
 # Security
 ## Content Security Policy
