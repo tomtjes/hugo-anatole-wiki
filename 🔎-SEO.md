@@ -1,4 +1,3 @@
-# 🔎 SEO
 ## Google Site Verification
 
 To use Google Site Verification, add the following line:
