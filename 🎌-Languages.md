@@ -1,4 +1,3 @@
-# 🎌 Languages
 ## Multilingual Support
 
 Anatole supports multilingual page setups. All you need to do is to add the languages to your 'config.toml'. For each language, you can set the custom options like title or description. It's important to include a `LanguageName` as it will be displayed in the main menu.
