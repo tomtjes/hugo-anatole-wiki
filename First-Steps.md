@@ -1,4 +1,5 @@
 # Profile Picture and Slogan
+Ìn this section, I'll discuss the custom parameters available within the `config.toml`. The complete [sample](https://github.com/lxndrblz/anatole/tree/master/exampleSite/config/_default) can be found in the exampleSite folder.
 
 ```toml
 [params]
