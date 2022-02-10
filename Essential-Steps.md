@@ -21,11 +21,6 @@ Welcome to the anatole wiki!
 
 1. Add the repository into your Hugo Project repository as a submodule: `git submodule add https://github.com/lxndrblz/anatole.git themes/anatole`.
 
-## Start up your site
-
-1. Configure your `config.toml`. Feel free to copy the demo [`config.toml`](https://github.com/lxndrblz/anatole/blob/master/exampleSite/config/_default/config.toml) and some content from the [exampleSite](https://github.com/lxndrblz/anatole/tree/master/exampleSite).
-2. Build your site with `hugo serve` and admire the result at [`http://localhost:1313/`](http://localhost:1313/).
-
 # Update your installation
 
 If you want to get the latest update of the `Anatole` theme, please follow the instructions below:
@@ -42,8 +37,10 @@ hugo mod get -u github.com/lxndrblz/anatole
 git submodule update --remote --merge
 ```
 
+***
+
 # First Steps
-# Setting up a Profile Picture and Slogan
+## Setting up a Profile Picture and Slogan
 Ìn this section, I'll discuss the custom parameters available within the `config.toml`. The complete [sample](https://github.com/lxndrblz/anatole/tree/master/exampleSite/config/_default) can be found in the exampleSite folder.
 
 ```toml
