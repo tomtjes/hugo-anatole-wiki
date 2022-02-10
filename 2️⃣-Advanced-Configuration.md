@@ -1,5 +1,5 @@
 # Appearance
-## Prefer Dark Theme
+## Prefering the Dark Theme
 
 You can easily enable the dark mode from the `config.toml` all you have to do is to set the parameter `displayMode` to `dark`. If you don't specify any `displayMode`, then the light version will be loaded.
 
@@ -37,7 +37,7 @@ Enabled by default, the medium like zoom for images can be disabled by adding th
 enableMediumZoom = false
 ```
 
-## Sidebar/Content Ratio
+## Adjusting the Sidebar/Content Ratio
 
 By default, the content fills up 60% of the screen width on devices with a full HD resolution. If you want to change the ratio, adjust the `contentratio` variable. Let's, for example, set the content ratio to 70%:
 
@@ -47,7 +47,7 @@ contentratio = 0.7
 ```
 
 
-## Syntax Highlighting
+## Enabling the Syntax Highlighting
 
 This theme has support for Hugo's lightning-fast Chroma code highlighting. See the [Hugo docs](https://gohugo.io/content-management/syntax-highlighting/) for more information.
 
@@ -72,7 +72,7 @@ Include the newly generated `syntax.css` like a standard custom CSS script:
 customCss = ["css/syntax.css"]
 ```
 
-## Date and Time Format
+## Modifying the Date and Time Format
 You can change the default date formatting for the `list.html`, the `single.html` and the `index.html`. Simply configure the matching parameters.
 
 ```toml
@@ -82,7 +82,7 @@ indexDateFormat = "Mon, Jan 2, 2006"
 listDateFormat = "Jan 2"
 ```
 # Custom JavaScript and CSS
-## Custom CSS
+## Adding Custom CSS
 
 You can add your custom CSS files with the `customCss` parameter of the configuration file. Put your files into the `assets/css` directory.
 
@@ -100,7 +100,7 @@ On the user-side, it will look like this:
         └── styles.css
 ```
 
-## Custom JavaScript
+## Adding Custom JavaScript
 
 You can add your custom JS files with the `customJs` parameter of the configuration file. Put your files into the `assets/js` directory.
 
@@ -135,7 +135,7 @@ Both approaches can even be mixed:
 customJs = ["https://cdn.exmple.org/fancyscript.js", "js/world.js"]
 ```
 # Analytics
-## Google Analytics
+## Adding Google Analytics
 
 To use Google Analytics, a valid tracking code has to be added. If you don't want to load the code, then commend out the parameter.
 
@@ -150,7 +150,7 @@ To use the modern Google Analytics 4, include the following under `[params]`, re
 gtagId = "G-XXXXXXXXXX"
 ```
 
-## Simple Analytics
+## Adding Simple Analytics
 
 To use Simple Analytics, it has to be enabled by setting the parameter to true. If you are using a custom subdomain to evade Adblockers, then specify the URL without a trailing slash.
 
@@ -159,7 +159,7 @@ To use Simple Analytics, it has to be enabled by setting the parameter to true. 
 enable = true
 # customurl = "https://analytics.example.com"
 ```
-## Plausible Analytics
+## Adding Plausible Analytics
 
 To use Plausible Analytics, include the following section and change the domain to your site's domain. If you self-host Plausible, you can optionally specify the URL of your instance.
 
@@ -168,7 +168,7 @@ To use Plausible Analytics, include the following section and change the domain 
 domain = "example.com"
 # serverURL = "https://analytics.example.com"
 ```
-## Umami Analytics
+## Adding Umami Analytics
 
 To use Umami Analytics, include the following section and change the `serverURL` to your self-hosted Umami server URL. Additionally, you will need to provide your website ID.
 
@@ -200,7 +200,7 @@ User-agent: *
 
 If certain sites should be excluded from being accessed, you might want to set up a custom robots.txt file within your `static` folder of your site.
 # Comments
-## Disqus
+## Adding Disqus
 
 No comment section is shown on the `single.html` unless a Disqus code is specified in the `config.toml` file.
 
@@ -208,7 +208,7 @@ No comment section is shown on the `single.html` unless a Disqus code is specifi
 disqusShortname = "XXX"
 ```
 
-## Utteranc.es
+## Adding Utteranc.es
 
 No comment section is shown on the `single.html` unless a `repo` is specified in the `config.toml` file. If uncertain how parameter to configure, check out the official [documentation](https://utteranc.es/).
 
@@ -225,7 +225,7 @@ Two notes on the security of Utteranc.es
 - If you are using a strict CSP, you'll have to add the domain to it.
 - The script currently has no built-in integrity check due to limitations of [Utterances](https://github.com/utterance/utterances/issues/40).
 
-## Commento
+## Adding Commento
 
 You can use [Commento](https://commento.io/) as an alternative to Disqus. All you need to do is to configure a `CommentoURL`:
 
@@ -234,7 +234,7 @@ You can use [Commento](https://commento.io/) as an alternative to Disqus. All yo
 CommentoURL = "https://commento.example.com/js/commento.js"
 ```
 
-## Gitalk
+## Adding Gitalk
 
 No comment section is shown on the `single.html` unless a `repo` is specified in the `config.toml` file. If uncertain how parameter to configure, check out the official [documentation](https://github.com/gitalk/gitalk).
 
