@@ -20,6 +20,7 @@ Welcome to the anatole wiki!
 ## Route 2 (traditional): install theme as Git submodule
 
 1. Add the repository into your Hugo Project repository as a submodule: `git submodule add https://github.com/lxndrblz/anatole.git themes/anatole`.
+2. Set the theme in your `config.toml` to anatole.
 
 # Update your installation
 
