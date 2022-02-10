@@ -1,7 +1,7 @@
-Welcome to the anatole wiki!
+Welcome to the Anatole wiki!
 
-# Setting up the Anatole theme
-## Route 1 (recommended): use theme as Hugo module
+# Setting Up The Anatole Theme
+## Route 1 (Recommended): Use Theme as Hugo Module
 
 1. Install prerequisites [git](https://git-scm.com/downloads) and [go](https://go.dev/dl/) (>= 1.12)
 2. Turn your Hugo Project into a Hugo module: `hugo mod init github.com/me/my-project`
@@ -17,22 +17,22 @@ Welcome to the anatole wiki!
     disable = false
 ```
 
-## Route 2 (traditional): install theme as Git submodule
+## Route 2 (Traditional): Install Theme as Git Submodule
 
 1. Add the repository into your Hugo Project repository as a submodule: `git submodule add https://github.com/lxndrblz/anatole.git themes/anatole`.
-2. Set the theme in your `config.toml` to anatole.
+2. Set the theme in your `config.toml` to Anatole.
 
-# Updating your installation
+# Updating Your Anatole Installation
 
 If you want to get the latest update of the `Anatole` theme, please follow the instructions below:
 
-## Theme as Hugo module
+## Theme as Hugo Module
 
 ```shell
 hugo mod get -u github.com/lxndrblz/anatole
 ```
 
-## Theme as Git submodule
+## Theme as Git Submodule
 
 ```shell
 git submodule update --remote --merge
@@ -65,11 +65,11 @@ Blogging from Texas
 ```
 
 ## Setting up the Social Icons in the Sidebar
-You can add social media based icon links under your profile picture by using the `socialIcons` parameter.
+You can add social media icon under your profile picture by using the `socialIcons` parameter.
 
 [Font Awesome](https://fontawesome.com/) is used for the icons.
 
-If you are using brand icons, prefix the icon value with `fab` if you are using a standard icon use `fas` instead.
+If you are using brand icons, prefix the icon value with `fab`. If you are using a standard icon, use `fas` instead.
 
 Ordering in the `config.toml` will determine the display order on the webpage.
 
@@ -92,14 +92,14 @@ url = "mailto:mail@example.com"
 ```
 ## Setting up a Favicon
 
-Add your favicons to `static/favicons`. Anatole currently employs following favicon files:
+Add your favicons to `static/favicons`. Anatole currently employs the following favicon files:
 
 - `favicon.ico`
 - `favicon-16x16.png`
 - `favicon-32x32.png`
 - `apple-touch-icon.png` (resolution should be 180x180)
 
-## Setting up Navigation Items
+## Setting up the Navigation Items
 
 Non-content entries can be added right from the `config.toml` file.
 
@@ -150,9 +150,9 @@ portfolioitems:
 
 Please note that fields such as start, end, authors, and tags will only appear if they have been populated. The image path defined under `image` parameter is relative to the static folder, similarly to images included in the post.
 
-## Setting up Copyright information
+## Setting up the Copyright information
 
-By default, the copyright will show the authors name followed by the current year, but you can change this by configuring the `copyright` parameter. If this method is used, the string `{{ YEAR }}` will be replaced with the current year during site generation.
+By default, the copyright will show the author's name followed by the current year, but you can change this by configuring the `copyright` parameter. If this method is used, the string `{{ YEAR }}` will be replaced with the current year during site generation.
 
 ```toml
 copyright = "2020-{{ YEAR }}"
