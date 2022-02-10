@@ -1,4 +1,3 @@
-# 💅 Appearance
 ## Prefering the Dark Theme
 
 You can easily enable the dark mode from the `config.toml` all you have to do is to set the parameter `displayMode` to `dark`. If you don't specify any `displayMode`, then the light version will be loaded.
