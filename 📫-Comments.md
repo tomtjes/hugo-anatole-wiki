@@ -1,4 +1,3 @@
-# 📫 Comments
 ## Adding Disqus
 
 No comment section is shown on the `single.html` unless a Disqus code is specified in the `config.toml` file.
