@@ -1,4 +1,3 @@
-# 📈 Analytics
 ## Adding Google Analytics
 
 To use Google Analytics, a valid tracking code has to be added. If you don't want to load the code, then commend out the parameter.
