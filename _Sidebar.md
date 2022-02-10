@@ -1,0 +1,18 @@
+### Table of Contents
+
+1️⃣ Essential Steps
+- [Setting Up Anatole](https://github.com/lxndrblz/anatole/wiki/1%EF%B8%8F%E2%83%A3-Essential-Steps#setting-up-the-anatole-theme)
+- [Updating Anatole](https://github.com/lxndrblz/anatole/wiki/1%EF%B8%8F%E2%83%A3-Essential-Steps#updating-your-anatole-installation)
+- [First Steps](https://github.com/lxndrblz/anatole/wiki/1%EF%B8%8F%E2%83%A3-Essential-Steps#first-steps)
+
+2️⃣ Advanced Configuration
+- [Modify Appearance](https://github.com/lxndrblz/anatole/wiki/2%EF%B8%8F%E2%83%A3-Advanced-Configuration#appearance)
+- [Add Custom JS/CSS](https://github.com/lxndrblz/anatole/wiki/2%EF%B8%8F%E2%83%A3-Advanced-Configuration#custom-javascript-and-css)
+- [Add Analytics](https://github.com/lxndrblz/anatole/wiki/2%EF%B8%8F%E2%83%A3-Advanced-Configuration#analytics)
+- [Add Comments](https://github.com/lxndrblz/anatole/wiki/2%EF%B8%8F%E2%83%A3-Advanced-Configuration#comments)
+- [Add Contact Form](https://github.com/lxndrblz/anatole/wiki/2%EF%B8%8F%E2%83%A3-Advanced-Configuration#contact-form)
+- [SEO Functionality](https://github.com/lxndrblz/anatole/wiki/2%EF%B8%8F%E2%83%A3-Advanced-Configuration#seo)
+- [Content Settings](https://github.com/lxndrblz/anatole/wiki/2%EF%B8%8F%E2%83%A3-Advanced-Configuration#content-settings)
+- [Language Settings](https://github.com/lxndrblz/anatole/wiki/2%EF%B8%8F%E2%83%A3-Advanced-Configuration#languages)
+- [Security](https://github.com/lxndrblz/anatole/wiki/2%EF%B8%8F%E2%83%A3-Advanced-Configuration#security)
+- [Output Formats](https://github.com/lxndrblz/anatole/wiki/2%EF%B8%8F%E2%83%A3-Advanced-Configuration#output-formats)
