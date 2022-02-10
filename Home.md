@@ -1,6 +1,6 @@
 Welcome to the anatole wiki!
 
-# Quickstart
+# Setting up the Anatole theme
 ## Route 1 (recommended): use theme as Hugo module
 
 1. Install prerequisites [git](https://git-scm.com/downloads) and [go](https://go.dev/dl/) (>= 1.12)
