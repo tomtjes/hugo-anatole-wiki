@@ -22,7 +22,7 @@ Welcome to the anatole wiki!
 1. Add the repository into your Hugo Project repository as a submodule: `git submodule add https://github.com/lxndrblz/anatole.git themes/anatole`.
 2. Set the theme in your `config.toml` to anatole.
 
-# Update your installation
+# Updating your installation
 
 If you want to get the latest update of the `Anatole` theme, please follow the instructions below:
 
@@ -64,7 +64,7 @@ Blogging from Texas
 """
 ```
 
-## Setting up a Social Icons in the Sidebar
+## Setting up the Social Icons in the Sidebar
 You can add social media based icon links under your profile picture by using the `socialIcons` parameter.
 
 [Font Awesome](https://fontawesome.com/) is used for the icons.
@@ -98,14 +98,6 @@ Add your favicons to `static/favicons`. Anatole currently employs following favi
 - `favicon-16x16.png`
 - `favicon-32x32.png`
 - `apple-touch-icon.png` (resolution should be 180x180)
-
-## Setting up Copyright information
-
-By default, the copyright will show the authors name followed by the current year, but you can change this by configuring the `copyright` parameter. If this method is used, the string `{{ YEAR }}` will be replaced with the current year during site generation.
-
-```toml
-copyright = "2020-{{ YEAR }}"
-```
 
 ## Setting up Navigation Items
 
@@ -157,5 +149,13 @@ portfolioitems:
 ```
 
 Please note that fields such as start, end, authors, and tags will only appear if they have been populated. The image path defined under `image` parameter is relative to the static folder, similarly to images included in the post.
+
+## Setting up Copyright information
+
+By default, the copyright will show the authors name followed by the current year, but you can change this by configuring the `copyright` parameter. If this method is used, the string `{{ YEAR }}` will be replaced with the current year during site generation.
+
+```toml
+copyright = "2020-{{ YEAR }}"
+```
 
 
