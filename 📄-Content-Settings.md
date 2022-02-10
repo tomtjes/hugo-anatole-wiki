@@ -1,5 +1,3 @@
-# 📄 Content Settings
-
 ## Setting up Post Thumbnails
 
 Thumbnails can be enabled easily by setting the `thumbnail` parameter in the frontmatter of a post to an image such as `"images/landscape.jpg"`.
