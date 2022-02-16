@@ -2,7 +2,7 @@ Anatole is a minimalist two-column theme for Hugo.
 
 Welcome to the Anatole wiki!
 
-This wiki and the Anatole README document contain a lot of information. Please take your time and read these instructions carefully.
+This wiki and the Anatole [README](https://github.com/lxndrblz/anatole/blob/master/README.md) document contain a lot of information. Please take your time and read these instructions carefully.
 
 👉 If you are new to the theme, then check out our [essential steps guide](https://github.com/lxndrblz/anatole/wiki/1%EF%B8%8F%E2%83%A3-Essential-Steps), which contains everything you need for setting up the theme and personalizing it. 
 
