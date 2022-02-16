@@ -11,3 +11,5 @@ This wiki and the Anatole README document contain a lot of information. Please t
 We provide detailed changes for each Anatole [release](https://github.com/lxndrblz/anatole/releases).
 
 If you have any questions about the Anatole usage or want to share some information with our amazing community, please open up a GitHub [Issue](https://github.com/lxndrblz/anatole/issues) or use the [discussion](https://github.com/lxndrblz/anatole/discussions) functionality.
+
+If you want to contribute to this wiki, clone the wiki locally `git clone https://github.com/lxndrblz/anatole.wiki.git`, make the necessary changes in a Markdown editor of your choice and push these back to the repository.
