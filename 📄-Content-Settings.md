@@ -134,9 +134,12 @@ By default, this warning only shows on posts. You can override this behavior by 
 
 In order to use the full functionality of Twitter cards, you will have to define a couple of settings in the `config.toml` and the frontmatter of a page.
 
-In the `config.toml` you can configure a site feature image. This image will be displayed if no image is defined in the frontmatter of a page.
+In the `config.toml` you can configure your Twitter handle and a site feature image. The image will be displayed if no image is defined in the frontmatter of a page.
 
 ```toml
+[social]
+  twitter = "lxndrblz"
+
 [params]
   images = ["images/site-feature-image.png"]
 ```
