@@ -46,7 +46,7 @@ contentratio = 0.7
 ```
 
 ## Hiding the Sidebar on Content Pages
-You can hide the sidebar on content pages, such as a single post or site like the about site, by setting `hidesidebar` to true.
+You can hide the sidebar on content pages, such as a single post or site like the about page, by setting `hidesidebar` to true.
 
 ```toml
 [params]
