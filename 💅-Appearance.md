@@ -45,6 +45,13 @@ By default, the content fills up 60% of the screen width on devices with a full 
 contentratio = 0.7
 ```
 
+## Hiding the Sidebar on Content Pages
+You can hide the sidebar on content pages, such as a single post or site like the about site, by setting `hidesidebar` to true.
+
+```toml
+[params]
+hidesidebar = true
+```
 
 ## Enabling the Syntax Highlighting
 
