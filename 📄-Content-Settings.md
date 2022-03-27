@@ -105,6 +105,36 @@ series: - series-name
 
 If you want to share the full series, you can do so by sharing the link `<base-url>/series/<series-name>`
 
+### Enable Related Posts
+
+`Related posts` are pages (identified by Hugo) with similar content by the Front Matter parameters.
+
+To enable a list of related pages added after the page content, add this to your `[params]` section:
+
+```toml
+[params]
+relatedPosts = true
+numberOfRelatedPosts = 3
+````
+The parameter `numberOfRelatedPosts` controls the number of related pages that will be linked.
+
+To configure the related posts more granularly, check out the [official documntation](https://gohugo.io/content-management/related/#configure-related-content), which explains everything in great detail. A good starting point would be to add the following configuration to your `config`:
+
+```toml
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+[[related.indices]]
+  name = 'keywords'
+  weight = 100
+[[related.indices]]
+  name = 'tags'
+  weight = 80
+  ````
+Where `ìncludeNewer = true` includes pages newer than the current page in the related content listing.
+
+
 ## Showing a Warning for outdated content
 
 You can provide an outdated warning for viewers reading posts older than a certain number of days. This is useful if your posts have time-sensitive information that may become incorrect over time.
