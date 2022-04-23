@@ -124,6 +124,30 @@ Non-content entries can be added right from the `config.toml` file.
   identifier = "about"
   url = "/about/"
 ```
+
+You can also add a dropdown navigation with subitems by defining a `parent` property within your `config.toml` file. In the following example, Awards and Certifications would be a subitem of Accomplishments.
+
+```toml
+[[main]]
+name = "Accomplishments"
+weight = 500
+identifier = "accomplishments"
+
+[[main]]
+name = "Awards"
+weight = 510
+identifier = "awards"
+url = "/awards/"
+parent = "accomplishments"
+
+[[main]]
+name = "Certifications"
+weight = 520
+identifier = "certifications"
+url = "/certifications/"
+parent = "accomplishments"
+```
+
 ## Setting up a Portfolio
 You can create an optional portfolio page that allows showcasing recent projects and publications. The entries within your portfolio are controlled by the `portfolio.yml` inside of your `data` folder. The `portfolio.yml` may look similar to the following structure:
 
