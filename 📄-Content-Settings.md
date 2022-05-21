@@ -63,6 +63,14 @@ enable = false  # options: true, false. Enable math support globally, default: f
 use = "katex"  # options: "katex", "mathjax". default is "katex".
 ```
 
+## Enabling the Mermaid Diagram
+The mermaid diagram functionality needs to be globally enabled within the `config.toml` by adding the following code snippet.
+
+```toml
+[mermaid]
+enable = true
+```
+
 ## Setting up External Redirect URLs
 
 You can create pages which redirect to another (external) URL with a short delay. This can be useful for migrating previously indexed URLs, which no longer exist, or for communicating complex external URLs to your readers.
