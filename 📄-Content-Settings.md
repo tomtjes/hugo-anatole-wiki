@@ -64,11 +64,20 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 ```
 
 ## Enabling the Mermaid Diagram
-The mermaid diagram functionality needs to be globally enabled within the `config.toml` by adding the following code snippet.
+The mermaid diagram functionality needs to be globally enabled within the `params.toml` by adding the following code snippet.
 
 ```toml
 [mermaid]
 enable = true
+```
+
+A simple Mermaid diagram can be created by adding the following code block to your page or post:
+```text
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
 
 ## Setting up External Redirect URLs
