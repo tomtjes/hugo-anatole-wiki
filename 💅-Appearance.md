@@ -87,3 +87,12 @@ singleDateFormat = "Mon, Jan 2, 2006"
 indexDateFormat = "Mon, Jan 2, 2006"
 listDateFormat = "Jan 2"
 ```
+
+## Reverse Page Title
+
+By default, the title of pages is `Author | PageTitle`. You can switch the order to `PageTitle | Author` by setting the parameter `reversepagetitle` to `true` in `config.toml`.
+
+```toml
+[params]
+reversepagetitle = true
+```
