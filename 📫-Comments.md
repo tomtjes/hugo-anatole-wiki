@@ -45,6 +45,24 @@ owner = "GitHub repo owner"
 admin = "GitHub repo owner and collaborators, only these guys can initialize gitHub issues"
 ```
 
+## Adding Giscus
+You can use [Giscus](https://giscus.app/) as an alternative to Disqus. You can set it up as follows:
+```toml
+[params.giscus]
+repo = "githubuser/reponame"
+repoID = "Github Repo ID"
+category = "Discussions Category"
+categoryID = "Discussions Category ID"
+# <Optional Params>
+# mapping = "pathname"
+# strict = "0"
+# reactionsEnabled = "1"
+# emitMetadata = "0"
+# inputPosition = "bottom"
+# lang = "en"
+# loading = "lazy"
+```
+
 ## Disabling Comments Per Page
 
 Comments can be disabled per page by setting `disableComments: true` on the pages [Front Matter](https://gohugo.io/content-management/front-matter/)
