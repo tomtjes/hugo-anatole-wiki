@@ -33,10 +33,11 @@ domain = "example.com"
 ```
 ## Adding Umami Analytics
 
-To use Umami Analytics, include the following section and change the `serverURL` to your self-hosted Umami server URL. Additionally, you will need to provide your website ID.
+To use Umami Analytics, include the following section and change the `id` to the Website ID from Umami. If you self-host Umami, also change the `serverURL` and `tracerScriptName` to fit your installation.
 
 ```toml
 [params.umami]
-serverURL = "example.com"
+serverURL = "analytics.umami.is"
 id = "94db1cb1-74f4-4a40-ad6c-962362670409"
+trackerScriptName = "script.js"
 ```
