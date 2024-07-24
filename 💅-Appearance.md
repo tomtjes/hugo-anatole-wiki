@@ -88,11 +88,27 @@ indexDateFormat = "Mon, Jan 2, 2006"
 listDateFormat = "Jan 2"
 ```
 
-## Reverse Page Title
+## Reversing Page Title
 
 By default, the title of pages is `Author | PageTitle`. You can switch the order to `PageTitle | Author` by setting the parameter `reversepagetitle` to `true` in `config.toml`.
 
 ```toml
 [params]
 reversepagetitle = true
+```
+
+## Disabling the Titlecasing on the Blog page
+
+You can disable the titlecasing of the header on the blog page by setting the following option.
+```toml
+[params]
+disableTitleCapitalization = true
+```
+
+## Disabling the Uppercasing on the Archive page
+
+You can disable the uppercasing of the header on the blog page by setting the following option.
+```toml
+[params]
+disableArchiveTitleStyling  = true
 ```
