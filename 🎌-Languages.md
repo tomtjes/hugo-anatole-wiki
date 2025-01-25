@@ -70,3 +70,11 @@ LanguageName = "EN"
 [ar]
 LanguageName = "Arabic"
 ```
+
+## Localizing Dates
+To use translated names of months and days of the week, simply add:
+
+```toml
+[params]
+localizedDates = true
+```
